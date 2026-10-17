@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Prototype SITTA Universitas Terbuka untuk mengelola stok bahan ajar dan tracking Delivery Order menggunakan Vue.js." />
+  <title>SITTA | Beranda Tugas Praktik 2</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/vue-task2.css" />
+</head>
+<body class="app-page">
+  <header class="topbar">
+    <a class="topbar-brand" href="index.html" aria-label="SITTA Beranda">
+      <img class="ut-logo topbar-logo" src="img/ut-logo.png" alt="Logo Universitas Terbuka" />
+      <span><strong>SITTA</strong><small>Universitas Terbuka</small></span>
+    </a>
+    <div class="topbar-actions">
+      <nav class="quick-nav" aria-label="Navigasi cepat">
+        <a class="quick-nav-link active" href="index.html">Beranda</a>
+        <a class="quick-nav-link" href="stok.html">Stok Bahan Ajar</a>
+        <a class="quick-nav-link" href="tracking.html">Tracking DO</a>
+      </nav>
+      <span class="security-badge">✓ Tugas Praktik 2 · Vue.js</span>
+    </div>
+  </header>
+
+  <div class="layout">
+    <aside class="sidebar">
+      <nav aria-label="Navigasi utama">
+        <p class="nav-section-title">MENU UTAMA</p>
+        <a class="nav-link active" href="index.html"><span>⌂</span> Beranda</a>
+        <a class="nav-link" href="stok.html"><span>▣</span> Stok Bahan Ajar</a>
+        <a class="nav-link" href="tracking.html"><span>⇢</span> Tracking Delivery Order</a>
+      </nav>
+      <div class="sidebar-footer">
+        <div class="security-badge">✓ Front-end prototype</div>
+        <!-- <p class="sidebar-note">Vue.js 3 · Data dummy · Tanpa backend</p> -->
+      </div>
+    </aside>
+
+    <main class="content home-content">
+      <section class="hero-card">
+        <div>
+          <p class="eyebrow">SISTEM INFORMASI TIRAS DAN TRANSAKSI BAHAN AJAR</p>
+          <h1>Selamat datang di SITTA</h1>
+          <p>Tugas 2 Pemrograman Berbasis Web pengelolaan stok bahan ajar dan tracking Delivery Order Universitas Terbuka yang dikembangkan dengan Vue.js.</p>
+        </div>
+        <div class="hero-date">TUGAS PRAKTIK 2<br /><strong>Vue.js 3</strong></div>
+      </section>
+
+      <section class="stat-grid" aria-label="Ringkasan aplikasi">
+        <article class="stat-card"><span class="stat-icon">▣</span><div><span>Modul Stok</span><strong>01</strong></div><small class="trend">Filter & CRUD</small></article>
+        <article class="stat-card"><span class="stat-icon">⇢</span><div><span>Modul Tracking DO</span><strong>02</strong></div><small class="trend">Form & tracking</small></article>
+        <article class="stat-card"><span class="stat-icon">✓</span><div><span>Framework</span><strong>Vue 3</strong></div><small class="trend">Data reaktif</small></article>
+        <article class="stat-card"><span class="stat-icon">◷</span><div><span>Penyimpanan</span><strong>Client</strong></div><small class="trend">localStorage</small></article>
+      </section>
+
+      <section class="task2-menu-grid" aria-label="Menu aplikasi">
+        <article class="panel task2-menu-card">
+          <div class="task2-menu-icon">▣</div>
+          <p class="eyebrow">MODUL 01</p>
+          <h2>Stok Bahan Ajar</h2>
+          <p>Menampilkan stok dari data dummy, memberi status aman/menipis/kosong, serta menyediakan filter, pengurutan, tambah, dan edit data.</p>
+          <a class="btn btn-primary" href="stok.html">Buka Stok Bahan Ajar <span aria-hidden="true">→</span></a>
+        </article>
+        <article class="panel task2-menu-card">
+          <div class="task2-menu-icon task2-menu-icon-amber">⇢</div>
+          <p class="eyebrow">MODUL 02</p>
+          <h2>Tracking Delivery Order</h2>
+          <p>Membuat nomor DO otomatis, memilih layanan dan paket, menghitung harga dari data paket, serta melihat detail status dan timeline pengiriman.</p>
+          <a class="btn btn-primary" href="tracking.html">Buka Tracking DO <span aria-hidden="true">→</span></a>
+        </article>
+      </section>
+
+      <footer class="app-footer">SITTA · Universitas Terbuka · Tugas Praktik 2 Pemrograman Berbasis Web</footer>
+    </main>
+  </div>
+</body>
+</html>
